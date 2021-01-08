@@ -11,6 +11,9 @@ make run
 ## Objetivos
 Em um jogo de poker a cada round podem ser feitas 3 ações: Check, Rise e Run. O Objetivo desse algoritmo é evoluir um cromossomo que representa a jogada de um player a cada round, buscando otimizar a melhor escolha, aumentando e fugindo quando necessário e lucrando o máximo possivel em cada Round.
 
+## Programas de terceiros
+Foi utilizada uma ferramenta de terceiros chamada "Hand-Evaluator" para obter um valor numerico para a mão de cada jogador e assim poder decidir o verncedor do round. A biblioteca é encontrada em: https://github.com/HenryRLee/PokerHandEvaluator
+
 ## Versão simplificada
 1 player contra 2 máquinas e 1 robô.
 Maquinas possuem inteligência mínima, ou seja, não fogem em situações favoráveis:
